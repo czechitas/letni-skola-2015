@@ -1,0 +1,100 @@
+body {
+  font-family: 'Muli', sans-serif;
+  background: #fcf3f9;
+}
+header {
+  width: 100%;
+  background: url("../img/body.jpg");
+}
+header h1 {
+  margin-top: 0px;
+}
+header .top-margin {
+  margin-top: 40px;
+}
+header .top-menu li {
+  float: left;
+  list-style: none;
+  margin-right: 30px;
+}
+header .top-menu .call-to-action {
+  color: #fff;
+  background: #b92e81;
+  padding: 5px 10px 5px 10px;
+}
+header a {
+  color: #585758;
+}
+header a:hover {
+  color: #b92e81;
+}
+section.title {
+  background: url("../img/title.jpg");
+  height: 600px;
+  color: white;
+}
+section.title h1,
+section.title h2 {
+  font-family: 'Muli', sans-serif;
+  color: #585758;
+  background: rgba(255, 255, 255, 0.78);
+  padding: 20px;
+  font-size: 30px;
+}
+section.title .center {
+  text-align: center;
+}
+section.title .top-margin {
+  margin-top: 20px;
+}
+section.title .content-box {
+  background: #5b8543;
+  padding: 20px;
+  opacity: 0.95;
+}
+section.title .content-box p {
+  font-size: 18px;
+  text-align: justify;
+}
+.pink {
+  color: #b92e81;
+}
+section.info h1,
+section.info h2 {
+  font-family: 'Muli', sans-serif;
+  color: #585758;
+}
+section.info a {
+  color: #5b8543;
+}
+section.info .partner {
+  height: 100px;
+}
+section.info p {
+  text-align: justify;
+}
+section.program h1,
+section.program h2,
+section.program h4 {
+  font-family: 'Muli', sans-serif;
+  color: #585758;
+}
+section.program h4 {
+  margin-top: 30px;
+}
+section.program .photo {
+  width: 400px;
+  margin-bottom: 10px;
+}
+section.czechitas h1,
+section.czechitas h2,
+section.czechitas h4 {
+  font-family: 'Muli', sans-serif;
+  color: #585758;
+}
+section.czechitas a {
+  color: #5b8543;
+}
+section.czechitas p {
+  text-align: justify;
+}
