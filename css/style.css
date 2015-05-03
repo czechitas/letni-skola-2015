@@ -1,25 +1,27 @@
 body {
   font-family: sans-serif;
-  background: #fcf3f9;
 }
 header {
   width: 100%;
   background: url("../img/body.jpg");
+  height: 150px;
 }
 header h1 {
   margin-top: 0px;
 }
 header .top-margin {
-  margin-top: 40px;
+  margin-top: 30px;
+}
+header .large-7.columns.top-menu {
+  margin-top: 14px;
 }
 header .top-menu {
-  margin-top: -20px;
   font-family: 'Muli', sans-serif;
 }
 header .top-menu li {
   float: left;
   list-style: none;
-  margin-right: 30px;
+  margin-right: 20px;
 }
 header .top-menu .call-to-action {
   color: #fff;
@@ -27,19 +29,15 @@ header .top-menu .call-to-action {
   padding: 5px 10px 5px 10px;
 }
 header .logo {
-  height: 60px;
+  margin-top: 34px;
 }
 header .partner {
   height: 50px;
-  position: absolute;
-  left: 1180px;
-  margin-top: 10px;
-  top: 10px;
 }
-header .microsoft {
-  position: absolute;
-  left: 1140px;
-  top: 60px;
+header h4 {
+  font-family: 'Muli', sans-serif;
+  color: #585758;
+  font-size: 18px;
 }
 header a {
   color: #585758;
