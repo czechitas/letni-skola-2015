@@ -32,7 +32,10 @@ header .logo {
   margin-top: 34px;
 }
 header .partner {
-  height: 50px;
+  width: 90px;
+}
+header .micosoft {
+  width: 120px;
 }
 header h4 {
   font-family: 'Muli', sans-serif;
