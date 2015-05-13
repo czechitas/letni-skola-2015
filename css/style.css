@@ -94,6 +94,9 @@ section.info a {
   color: #5b8543;
 }
 section.info .partner {
+  height: 80px;
+}
+section.info .partner2 {
   height: 100px;
 }
 section.info p {
