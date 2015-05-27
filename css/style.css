@@ -69,9 +69,11 @@ header a.current {
 }
 section.title {
   color: white;
+  text-shadow: 0 0 1px #b92e81;
 }
 section.title h1 {
   font-family: 'Roboto', sans-serif;
+  background: rgba(255, 255, 255, 0.6);
   color: #585758;
   text-align: center;
   padding: 20px;
@@ -79,6 +81,7 @@ section.title h1 {
 }
 section.title h2 {
   font-family: 'Roboto', sans-serif;
+  background: rgba(255, 255, 255, 0.6);
   color: #585758;
   text-align: center;
 }
@@ -95,12 +98,12 @@ section.title .center {
 }
 section.title-text {
   color: white;
-  padding-bottom: 50px;
 }
 section.title-text p {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
-  color: #373737;
+  text-shadow: 0 0 1px #000;
+  color: white;
 }
 @media only screen and (max-width: 64em) {
   section.title-text p {
@@ -109,6 +112,10 @@ section.title-text p {
 }
 section.title-text .top-margin {
   margin-top: 50px;
+}
+section.title-text .content-box {
+  background: rgba(91, 133, 67, 0.9);
+  padding: 20px;
 }
 section.title-text .title-image {
   background: url("../img/photo4.jpg");
@@ -126,14 +133,6 @@ section.title-text .title-image {
     background-size: 180%, 100%;
     background-position-x: 45%;
   }
-}
-section.title-text .call-to-action {
-  color: #fff;
-  background: #b92e81;
-  padding: 5px 10px 5px 10px;
-  text-align: center;
-  margin: auto;
-  width: 200px;
 }
 .pink {
   color: #b92e81;
