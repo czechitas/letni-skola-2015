@@ -43,6 +43,9 @@ header {
 
   .partner {
     width: 90px;
+    @media only screen and (max-width:24em){
+      width: 80px;
+    }
   }
 
   .long-logo {
@@ -57,6 +60,9 @@ header {
     font-family: 'Roboto', sans-serif;
     color: #585758;
     font-size: 18px;
+    @media only screen and (max-width:64em){
+      margin-top: 1em;
+    }
   }
 
   a {
@@ -75,10 +81,6 @@ header {
 
 section.title {
   color: white;
-  background-image: url("../img/Desktop.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  height: 115%;
 
   h1 {
     font-family: 'Roboto', sans-serif;
@@ -92,34 +94,57 @@ section.title {
     font-family: 'Roboto', sans-serif;
     color: #585758;
     text-align: center;
+    b {
+      display: inline-block;
+    }
   }
-  
+
   .center {
     text-align: center;
   }
 
   .top-margin {
-    margin-top: 20px;
+    @media only screen and (min-width: 64.063em){
+      margin-top: 20px;
+    }
   }
 }
 
 section.title-text {
   color: white;
-  background: linear-gradient(#D5D8D6, #727070);
-  background: -webkit-linear-gradient(#D5D8D6, #727070);
-  background: -o-linear-gradient(#D5D8D6, #727070);
-  background: -moz-linear-gradient(#D5D8D6, #727070);
+  background: #C1C5C2;
   padding-bottom: 50px;
 
   p {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     color: rgb(55, 55, 55);
-
+    @media only screen and (max-width:64em){
+      text-align: justify;
+    }
   }
 
   .top-margin {
     margin-top: 50px;
+  }
+
+  .title-image {
+    background: url("../img/Desktop.png"), -webkit-linear-gradient(white, white, #C1C5C2, #C1C5C2);
+    background: url("../img/Desktop.png"), -o-linear-gradient(white, white, #C1C5C2, #C1C5C2);
+    background: url("../img/Desktop.png"), -moz-linear-gradient(white, white, #C1C5C2, #C1C5C2);
+    background: url("../img/Desktop.png"), linear-gradient(white, white, #C1C5C2, #C1C5C2);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 71.65vw;
+    margin-top: -15vw;
+    margin-bottom: -10vw;
+    @media only screen and (max-width:64em){
+      height: 128.97vw;
+      margin: -30vw 0 -15vw;
+      background-size: 180%, 100%;
+      background-position-x: 45%;
+    }
   }
 
   .call-to-action {
