@@ -43,6 +43,9 @@ header .partner {
     width: 80px;
   }
 }
+header .logo-menu {
+  margin-top: 10px;
+}
 header .long-logo {
   width: 120px;
 }
