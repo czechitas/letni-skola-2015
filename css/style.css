@@ -115,6 +115,9 @@ section.title-text p {
     text-align: justify;
   }
 }
+section.title-text p .call-to-action {
+  color: #eb38a3;
+}
 section.title-text .top-margin {
   margin-top: 50px;
 }
@@ -142,10 +145,17 @@ section.title-text .title-image {
 .pink {
   color: #b92e81;
 }
-section.info h1,
-section.info h2 {
+section.info .info-img {
+  border: 3px solid #b92e81;
+}
+section.info h1 {
   font-family: 'Roboto', sans-serif;
   color: #585758;
+}
+section.info h2 {
+  font-family: 'Roboto', sans-serif;
+  color: #b92e81;
+  font-size: 23px;
 }
 section.info a {
   color: #5b8543;
@@ -159,6 +169,13 @@ section.info .partner2 {
 section.info p {
   text-align: justify;
 }
+section.info .call-to-action {
+  background-color: #b92e81;
+  color: white;
+  padding: 10px;
+  display: block;
+  text-align: center;
+}
 section.program h1,
 section.program h2,
 section.program h4 {
@@ -166,11 +183,13 @@ section.program h4 {
   color: #585758;
 }
 section.program h4 {
-  margin-top: 30px;
+  margin-top: 10px;
+  color: #b92e81;
 }
 section.program .photo {
   width: 400px;
   margin-bottom: 10px;
+  border: 3px solid #b92e81;
 }
 section.czechitas h1,
 section.czechitas h2,
@@ -183,4 +202,11 @@ section.czechitas a {
 }
 section.czechitas p {
   text-align: justify;
+}
+section.czechitas .call-to-action {
+  background-color: #b92e81;
+  color: white;
+  padding: 10px;
+  display: block;
+  text-align: center;
 }
