@@ -15,7 +15,18 @@ header .top-margin {
 }
 header .large-7.columns.top-menu {
   margin-top: 14px;
+   width: 50.6%;
 }
+
+.large-2.columns.top-menu {
+    margin-top: 14px;
+    width: 15%;
+}
+
+.large-3 {
+  width: 17.0%;
+}
+
 header .top-menu {
   font-family: 'Roboto', sans-serif;
 }
@@ -33,10 +44,10 @@ header .top-menu .call-to-action {
   padding: 5px 10px 5px 10px;
 }
 header .logo {
-  margin-top: 30px;
+  margin-top: 22px;
 }
 header .partner {
-  width: 90px;
+  width: 110px;
 }
 @media only screen and (max-width: 24em) {
   header .partner {
@@ -45,6 +56,9 @@ header .partner {
 }
 header .logo-menu {
   margin-top: 10px;
+}
+header .main-logo {
+  width: auto;
 }
 header .long-logo {
   width: 120px;
@@ -116,7 +130,9 @@ section.title-text p {
   }
 }
 section.title-text p .call-to-action {
-  color: #eb38a3;
+  color: #fff;
+  background: #b92e81;
+  padding: 5px 10px 5px 10px;
 }
 section.title-text .top-margin {
   margin-top: 50px;
