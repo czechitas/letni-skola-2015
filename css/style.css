@@ -3,29 +3,42 @@ body {
 }
 header {
   width: 100%;
-  height: 110px;
+  height: 145px;
   position: relative;
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 1.0);
 }
 header h1 {
-  margin-top: 0px;
+  margin-top: 150px;
 }
 header .top-margin {
-  margin-top: 30px;
+  margin-top: 0px;
 }
 header .large-7.columns.top-menu {
-  margin-top: 14px;
-   width: 50.6%;
+  margin-top: 65px;
+   width: 50.0%;
+}
+
+.margin-title {
+  margin-top: 200px;
 }
 
 .large-2.columns.top-menu {
-    margin-top: 14px;
+    margin-top: 42px;
     width: 15%;
+    vertical-align: middle;
 }
 
-.large-3 {
-  width: 17.0%;
+.large-8.columns.top-margin {
+    width: 100%;
+
 }
+
+
+.large-3.columns {
+  width: 18.0%;
+  margin-top: 12px;
+}
+
 
 header .top-menu {
   font-family: 'Roboto', sans-serif;
@@ -42,9 +55,13 @@ header .top-menu .call-to-action {
   color: #fff;
   background: #b92e81;
   padding: 5px 10px 5px 10px;
+  -webkit-box-shadow: 1px 1px 7px 0px rgba(87,87,87,1);
+-moz-box-shadow: 1px 1px 7px 0px rgba(87,87,87,1);
+box-shadow: 1px 1px 7px 0px rgba(87,87,87,1);
 }
 header .logo {
-  margin-top: 22px;
+  margin-top: 42px;
+  margin-left: 24px;
 }
 header .partner {
   width: 110px;
@@ -65,6 +82,7 @@ header .long-logo {
 }
 header .third-logo {
   margin: auto;
+  margin-top: 4px;
 }
 header h4 {
   font-family: 'Roboto', sans-serif;
@@ -89,23 +107,26 @@ header a.current {
 section.title {
   color: white;
   text-shadow: 0 0 3px #ccc;
+  background: rgba(0, 0, 0, 0.43);
+  height: 71.65vw;
 }
 section.title h1 {
   font-family: 'Roboto', sans-serif;
-  background: rgba(255, 255, 255, 0.8);
-  color: #585758;
+  color: #FFFFFF;
   text-align: center;
   padding: 20px;
   font-size: 48px;
 }
 section.title h2 {
   font-family: 'Roboto', sans-serif;
-  background: rgba(255, 255, 255, 0.8);
-  color: #585758;
+  color: #FFFFFF;
   text-align: center;
+  margin-top: 0px
+
 }
 section.title h2 b {
   display: inline-block;
+
 }
 section.title .center {
   text-align: center;
@@ -117,29 +138,35 @@ section.title .center {
 }
 section.title-text {
   color: white;
+  
 }
 section.title-text p {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   text-shadow: 0 0 1px #000;
   color: white;
+
+
 }
 @media only screen and (max-width: 64em) {
   section.title-text p {
     text-align: justify;
+    padding: 16px;
   }
 }
 section.title-text p .call-to-action {
   color: #fff;
   background: #b92e81;
   padding: 5px 10px 5px 10px;
-}
+  -webkit-box-shadow: 5px 5px 7px 0px rgba(87,87,87,1);
+-moz-box-shadow: 5px 5px 7px 0px rgba(87,87,87,1);
+box-shadow: 5px 5px 7px 0px rgba(87,87,87,1);}
 section.title-text .top-margin {
   margin-top: 50px;
 }
 section.title-text .content-box {
-  background: rgba(91, 133, 67, 0.9);
-  padding: 20px;
+  background: rgba(67, 123, 35, 0.91);
+  padding: 26px;
 }
 section.title-text .title-image {
   background: url("../img/photo4.jpg");
