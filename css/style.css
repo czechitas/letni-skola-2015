@@ -69,26 +69,24 @@ header .logo {
   margin-left: 24px;
 }
 header .partner {
-  width: 110px;
+  width: 80px;
 }
 @media only screen and (max-width: 24em) {
   header .partner {
     width: 80px;
   }
 }
-header .logo-menu {
-  margin-top: 10px;
+header .logo-menu.large-3.columns {
+  margin-top: 34px;
 }
 header .main-logo {
   width: auto;
 }
-header .long-logo {
-  width: 120px;
-}
+
 header .third-logo {
   margin: auto;
-  margin-top: 4px;
 }
+
 header h4 {
   font-family: 'Roboto', sans-serif;
   color: #585758;
